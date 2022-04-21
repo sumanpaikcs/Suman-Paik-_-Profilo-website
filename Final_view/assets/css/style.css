@@ -46,6 +46,12 @@ body {
   box-sizing: border-box;
 }
 
+
+
+
+
+
+
 #Download_my_cv {
   margin: 25px auto;
 }
@@ -2337,3 +2343,25 @@ p.form-message.error.form-message.error {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* .container01{
+  padding: 4px 27px;
+  display: grid; */
+  /* grid-template-columns: 300px 200px 100px; */
+  /* grid-template-columns: 300px auto 100px; */
+  /* grid-template-columns: 300px 100px auto; */
+  /* grid-template-columns: 1fr 4fr 1fr; */
+  /* grid-template-columns: repeat(3,auto);
+  grid-gap: 2rem;
+}
+.item01{ */
+  /* height: 100px;
+  width: 100px; */
+  /* background-color: red; */
+  /* margin: 5px; */
+  /* padding: 6px;
+  height: 80px;
+  width: 80px;
+  margin: auto; */
+  /* border: 2px solid black; */
+/* } */
