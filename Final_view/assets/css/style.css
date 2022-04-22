@@ -180,7 +180,8 @@ p {
   -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
   -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
   box-shadow: 0px 5px 8px 0px rgb(0 0 0 / 62%);
-  background-color: #ff2b2b85;
+  /* background-color: #ff2b2b85; */
+  background-color: #523333;
   text-transform: uppercase;
 }
 .main-btn:hover {
@@ -566,7 +567,7 @@ p {
   -moz-box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
   box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
   padding: 12px 0;
-  background-color: #fff;
+  background-color: #fffffff0;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -725,7 +726,7 @@ padding-right: 0px;}
   position: relative;
   overflow: hidden;
   /* background-color: #ffc800; */
-  background-color: #ffb000e6;
+  background-color: #ffdaa4ad;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-content {
@@ -2342,26 +2343,37 @@ p.form-message.error.form-message.error {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=style.css.map */
 
-/* .container01{
-  padding: 4px 27px;
-  display: grid; */
-  /* grid-template-columns: 300px 200px 100px; */
-  /* grid-template-columns: 300px auto 100px; */
-  /* grid-template-columns: 300px 100px auto; */
-  /* grid-template-columns: 1fr 4fr 1fr; */
-  /* grid-template-columns: repeat(3,auto);
-  grid-gap: 2rem;
+
+
+
+
+
+
+.Tool_container{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+   grid-gap: .6rem;
+  padding: 0px 11px;
+  
+
+  
 }
-.item01{ */
-  /* height: 100px;
-  width: 100px; */
-  /* background-color: red; */
-  /* margin: 5px; */
-  /* padding: 6px;
-  height: 80px;
-  width: 80px;
-  margin: auto; */
+.skills_tech{
+  padding: 6px;
+  width: 73px;
+  margin: auto;
   /* border: 2px solid black; */
-/* } */
+  /* align-items: center; */
+}
+.skills_tech img{
+  border-radius: 0%;
+}
+.skills_tech span{
+  margin: 4px 4px;
+  text-align: center;
+  align-items: center;
+  font-size: small;
+  color: rgb(20, 20, 20);
+
+}
